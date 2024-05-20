@@ -1,0 +1,23 @@
+#reservasForm {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#reservasForm input, #reservasForm select, #reservasForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+#reservasForm input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#reservasForm input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/*Estilos principales para el formulario y otras interfaces.*/
